@@ -1,0 +1,223 @@
+.header {
+	width:100%;
+	margin-top:-10px;
+	padding-bottom:40px;
+	position:fixed;
+	height:80px;
+	overflow:hidden;
+	top:0;
+	left:0;
+	background-color: rgba(25,25,25,0.95);
+}
+
+.header_pad {
+	background:#f7f7f7;
+	width:100%;
+	margin-top:-80px;
+	padding-bottom:40px;
+	height:80px;
+	overflow:hidden;
+	top:0;
+	left:0;
+}
+
+
+
+section {
+	width: 100%;
+
+	padding-top:50px;
+	padding-bottom:1px;
+	text-align:center;
+}
+
+.sect_a{
+	background:white;
+	margin-bottom:-4px;
+}
+
+.sect_b{
+	background:#f7f7f7;
+
+}
+
+
+
+.thread {
+	display:block;
+	width:700px;
+	text-align:justify;
+	margin: 0 auto;
+}
+
+
+.col_40{
+	width: 48%;
+	float:left;
+}
+
+.col_10{
+	width:4%;
+	float:left;
+
+}
+
+body {
+    margin:0px;
+    height:100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+
+h1 {
+	color:#f7f7f7;
+	font-family:helvetica neue;
+	text-align:center;
+	font-size:70px;
+	text-shadow: 2px 2px #ff0000;
+}
+
+h2 {
+	color:black;
+	font-family:helvetica neue;
+	text-align:center;
+	font-size:110px;
+	line-height:40px;
+}
+
+p {
+	font-family:helvetica neue;
+	font-style:lighter;
+	margin-bottom:60px;
+}
+
+.img img{
+	width:300px;
+	text-align:center;
+	display:block;
+    margin:0 auto;
+    padding-top:40px;
+
+
+}
+
+.img{
+	text-align:center;
+	display:inline;
+	margin:0 auto;
+
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+	width:90%;
+	margin:0 auto;
+
+}
+
+.section_foot{
+	height:1px;
+	position:relative;
+	display:inline-block;
+	width:600px;
+	margin-top:100px;
+}
+
+.feature img {
+	width:700px;
+}
+
+
+
+
+@media only screen and (max-width: 780px) {
+
+
+
+	.thread{
+		width:500px;
+		font-size:20px;
+	}
+
+	.right{
+		float:none;
+	}
+
+		.left{
+		float:none;
+	}
+
+	.img img {
+		padding-bottom:30px;
+		width:400px;
+	}
+
+	.feature img {
+		width:400px;
+	}
+
+   .col_40{
+   	width:100%;
+   }
+
+   .col_10{
+   	width:0%;
+   }
+
+   h2{
+   	font-size:85px;
+   }
+
+   .section_foot{
+   	width:500px;
+   }
+
+
+
+}
+
+
+@media only screen and (max-width: 540px) {
+
+
+
+	.thread{
+		width:350px;
+	}
+
+	.img img {
+		width:300px;
+	}
+
+	h1{
+		font-size:55px;
+		padding-top:25px;
+	}
+
+
+
+	h2{
+		font-size:60px;
+	}
+
+	 .section_foot{
+   	width:350px;
+   }
+
+
+
+}
+
