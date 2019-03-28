@@ -40,12 +40,20 @@
 
 
 
+
+
 section {
 	width: 100%;
 
 	padding-top:50px;
 	padding-bottom:1px;
 	text-align:center;
+}
+
+.extra_pad{
+	width:100%;
+	display:inline-block;
+	height:40px;
 }
 
 .sect_a{
