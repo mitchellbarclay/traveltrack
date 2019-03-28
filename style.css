@@ -305,11 +305,11 @@ p {
 	}
 
 	.logo1 {
-		float:none;
+		height:150px;
 	}
 	
 	.logo2 {
-		float:none;
+		height:150px;
 	}
 
 	.feature img {
@@ -398,7 +398,11 @@ p {
 	}
 
 	.logo1{
-		height:200px;
+		height:100px;
+	}
+
+	.logo2{
+		height:100px;
 	}
 
 
