@@ -7,8 +7,10 @@
 	overflow:hidden;
 	top:0;
 	left:0;
-	background-color: rgba(25,25,25,0.95);
+	/*background-color: rgba(25,25,25,0.95);*/
+	background-image: linear-gradient(to right, rgba(37, 110, 155,0.8), rgba(16, 47, 66, 0.95) );
 	z-index:999;
+	box-shadow:0px 10px 30px 0px rgba(25, 25, 25, 0.2);
 }
 
 .menu {
@@ -26,7 +28,7 @@
 }
 
 .header_pad {
-	background:#f7f7f7;
+	background:white;
 	width:100%;
 	margin-top:-80px;
 	padding-bottom:40px;
@@ -112,13 +114,13 @@ h1 {
 	color:#f7f7f7;
 	text-align:right;
 	font-size:70px;
-	text-shadow: 2px 2px #498eff;
+	text-shadow: 2px 2px #2983bc;
 	line-height:72px;
 	padding-right:20px;
 }
 
 h2 {
-	color:black;
+	color:#256e9b;
 	text-align:center;
 	font-size:110px;
 	line-height:40px;
@@ -211,7 +213,7 @@ p {
 }
 
 .feature img{
-	width:800px;
+	width:700px;
 }
 
 
@@ -219,18 +221,20 @@ p {
 	margin:0 auto;
 	text-align:center;
 	display:block;
-	width:400px;
+	float:right;
+	height:200px;
+	border-radius:20px 20px 20px 20px;
 
 }
 
 
 
 .logo2 {
-	width:300px;
 	margin:0 auto;
 	text-align:center;
 	display:block;
-	width:250px;
+	float:left;
+	height:200px;
 }
 
 .full img {
@@ -289,6 +293,10 @@ p {
 		font-size:20px;
 	}
 
+	.header {
+		height:60px;
+	}
+
 
 
 	.img img {
@@ -330,6 +338,7 @@ p {
 	h1{
 		text-align:center;
 		padding-right:0px;
+		margin-top:38px;
 
 	}
 
@@ -385,11 +394,11 @@ p {
 
 	h1{
 		font-size:55px;
-		padding-top:16px;
+		margin-top:22px;
 	}
 
 	.logo1{
-		width:200px;
+		height:200px;
 	}
 
 
@@ -430,6 +439,10 @@ p {
        left: -9999px;
        right: -9999px;
         margin: auto;
+	}
+
+		.header {
+		height:40px;
 	}
 
 
